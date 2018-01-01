@@ -12,5 +12,10 @@
 	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/Jars/guava-23.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/Jars/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/Jars/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/commons-io-2.6/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/commons-io-2.6/commons-io-2.6-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/commons-io-2.6/commons-io-2.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/commons-io-2.6/commons-io-2.6-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Madhan/git/Selenium/Selenium/commons-io-2.6/commons-io-2.6-test-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
