@@ -1,0 +1,12 @@
+
+Locators:
+
+ *	Elements can be located by using findElement() and findElements() methods provided in WebDriver and
+ 	WebElements class.
+ 	
+ 	 	findElement() - method returns WebElement object (throws an exception if element not matched or found)
+ 	 	findElements() - method returns a list of WebElements (it returns an empty list)
+  
+ * There are 8 locators - ID, name, class name, tag name, link text, partial link test, CSS and Xpath.
+  
+ * findElement() and findElement() - throws NoSuchElementFoundException when they fail to locate specified element
