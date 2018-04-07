@@ -24,5 +24,7 @@ public class SearchByClassName {
 		linkText.click();
 		
 		System.out.println("Done");
+		
+		driver.quit();
 	}
 }

@@ -26,5 +26,7 @@ public class SearchById {
 		
 		System.out.println("Done");
 		
+		driver.quit();
+		
 	}
 }

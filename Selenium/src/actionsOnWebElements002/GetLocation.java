@@ -1,4 +1,4 @@
-package locatingWebElements001;
+package actionsOnWebElements002;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class SearchByXPath {
+public class GetLocation {
 	
 	static final String chromeDriver = "C:\\Users\\Madhan\\git\\Selenium\\Selenium\\Google Chrome Driver\\";
 	//static final String geckoDriver = "C:\\Users\\Madhan\\git\\Selenium\\Selenium\\Mozilla GeckoDriver\\"; // For Fire fox browser
@@ -16,14 +16,10 @@ public class SearchByXPath {
 		
 		System.setProperty("webdriver.chrome.driver", chromeDriver+"chromedriver.exe");
 		driver = new ChromeDriver();
-		// For Fire fox browser
-		// System.setProperty("webdriver.gecko.driver", geckoDriver+"geckodriver.exe");
+		driver.get("http://www.google.com");
 		
-		driver.get("http://book.theautomatedtester.co.uk/chapter2");
-		WebElement element = driver.findElement(By.xpath("//*[@id=\"random\"]"));
-		element.click();
-		
-		System.out.println("Done");
+		WebElement searchButton = driver.findElement(By.name("btnK"));
+		System.out.println("Coordinate of the button: " + searchButton.getLocation());
 		
 		driver.quit();
 	}

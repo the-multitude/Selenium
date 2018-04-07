@@ -24,5 +24,7 @@ public class SearchByCSSSelector {
 		button.click();
 		
 		System.out.println("Done");
+		
+		driver.quit();
 	}
 }

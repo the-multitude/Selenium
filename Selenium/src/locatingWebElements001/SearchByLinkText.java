@@ -25,5 +25,7 @@ public class SearchByLinkText {
 		
 		System.out.println("Done");
 		
+		driver.quit();
+		
 	}
 }

@@ -25,5 +25,7 @@ public class SearchByName {
 		
 		System.out.println("Done");
 		
+		driver.quit();
+		
 	}
 }

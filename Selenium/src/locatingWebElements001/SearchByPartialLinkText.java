@@ -24,5 +24,7 @@ public class SearchByPartialLinkText {
 		chapterLink.click();
 		
 		System.out.println("Done");
+		
+		driver.quit();
 	}
 }

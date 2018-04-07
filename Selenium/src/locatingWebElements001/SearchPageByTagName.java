@@ -26,5 +26,7 @@ public class SearchPageByTagName {
 		tagElement.click();
 		
 		System.out.println("Done");
+		
+		driver.quit();
 	}
 }
