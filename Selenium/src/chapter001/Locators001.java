@@ -1,10 +1,10 @@
-package locators;
+package chapter001;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class DiffrentLocators001 {
+public class Locators001 {
 
 	/*
 	 Locators:
