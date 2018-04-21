@@ -1,4 +1,4 @@
-package featuresInWebDriver;
+package featuresInWebDriver006;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

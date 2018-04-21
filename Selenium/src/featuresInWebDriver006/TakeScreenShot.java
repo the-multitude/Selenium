@@ -1,4 +1,4 @@
-package featuresInWebDriver;
+package featuresInWebDriver006;
 
 import java.io.File;
 import java.io.IOException;
